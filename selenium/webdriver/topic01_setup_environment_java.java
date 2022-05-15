@@ -21,7 +21,6 @@ public class topic01_setup_environment_java {
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		driver.manage().window().maximize();
 		driver.get("https://www.facebook.com/");
-		String a = "1234";
 	}
 
 	@Test
